@@ -13,6 +13,8 @@ Gridea 主题开发支持 less，若不熟悉 less 语法，尽可使用 css 语
 
 网页链接仅为预览效果所用
 
+主题开发文档：https://gridea.dev/docs/theme.html
+
 欢迎开发 Gridea 主题！
 
 😘 Enjoy~
