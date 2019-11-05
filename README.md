@@ -4,8 +4,9 @@
 
 ## 开发
 ```
-$ npm install
-$ npm run dev
+$ yarn install
+$ yarn run dev
+
 ```
 
 `/assets`、`/templates` 必须，Gridea 使用主题时必须文件夹  
