@@ -1,0 +1,238 @@
+{
+  "tags": [
+    {
+      "index": -1,
+      "name": "生活随想",
+      "slug": "WibWptDz1",
+      "used": true,
+      "link": "/tag/WibWptDz1",
+      "count": 3
+    },
+    {
+      "index": -1,
+      "name": "编程生涯",
+      "slug": "rwkHQqSzU",
+      "used": true,
+      "link": "/tag/rwkHQqSzU",
+      "count": 5
+    },
+    {
+      "index": -1,
+      "name": "文学集锦",
+      "slug": "V6NMYW_ta",
+      "used": true,
+      "link": "/tag/V6NMYW_ta",
+      "count": 12
+    },
+    {
+      "name": "Gridea",
+      "slug": "gridea",
+      "used": true,
+      "link": "/tag/gridea",
+      "count": 1
+    }
+  ],
+  "menus": [
+    {
+      "link": "/",
+      "name": "首页",
+      "openType": "Internal"
+    },
+    {
+      "link": "/archives",
+      "name": "归档",
+      "openType": "Internal"
+    },
+    {
+      "link": "/tags",
+      "name": "标签",
+      "openType": "Internal"
+    },
+    {
+      "link": "/post/about",
+      "name": "关于",
+      "openType": "Internal"
+    }
+  ],
+  "themeConfig": {
+    "footerInfo": "Powered by <a href=\"https://github.com/getgridea/gridea\" target=\"_blank\">Gridea</a>",
+    "postPageSize": 10,
+    "archivesPageSize": 50,
+    "showFeatureImage": true,
+    "siteDescription": "温故而知新",
+    "siteName": "Gridea",
+    "themeName": "notes",
+    "dateFormat": "YYYY-MM-DD",
+    "postUrlFormat": "SLUG",
+    "tagUrlFormat": "SHORT_ID",
+    "domain": ".."
+  },
+  "site": {
+    "posts": [
+      {
+        "content": "<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>\n<!-- more -->\n<blockquote>\n<p>此篇仅为测试渲染效果，非教程</p>\n</blockquote>\n<h2 id=\"标题\">标题</h2>\n<h3 id=\"三级标题显示\">三级标题显示</h3>\n<h2 id=\"普通段落\">普通段落</h2>\n<p>金樽清酒斗十千， 玉盘珍羞直万钱。停杯投箸不能食， 拔剑四顾心茫然。欲渡黄河冰塞川， 将登太行雪满山。闲来垂钓碧溪上， 忽复乘舟梦日边。行路难，行路难， 多歧路，今安在？长风破浪会有时， 直挂云帆济沧海。</p>\n<h2 id=\"有序列表\">有序列表</h2>\n<ol>\n<li>第一项内容</li>\n<li>第二项内容</li>\n<li>第三项内容，带<code>code</code>文本</li>\n</ol>\n<h2 id=\"无序列表\">无序列表</h2>\n<ul>\n<li>第一项内容</li>\n<li>第二项内容</li>\n<li>第三项内容，带 <code>code</code>文本</li>\n</ul>\n<h2 id=\"其他内容\">其他内容</h2>\n<p>这是去往<a href=\"https://gridea.dev\">Gridea 主页链接</a>，这是一个行内代码<code>console.log('Hello World')</code>，这是<strong>强调文本</strong>，这是<em>斜体文本</em>，这是<s>删除文本</s>，下面是分割线</p>\n<hr>\n<p>下面是图片：</p>\n<figure data-type=\"image\" tabindex=\"1\"><img src=\"https://images.unsplash.com/photo-1563362375-684f5a29d125?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60\" alt=\"图片描述\"></figure>\n<p>另一张设置宽高（200x120）的图片：</p>\n<figure data-type=\"image\" tabindex=\"2\"><img src=\"https://images.unsplash.com/photo-1563373262-1e074f7c30a0?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=1300&amp;q=80\" alt=\"设置固定宽高的图片，200 x 120\" width=\"200\" height=\"120\"></figure>\n<h2 id=\"块代码\">块代码</h2>\n<pre><code class=\"language-javascript\">function sayHello() {\n\tconsole.log(&quot;Hello Wolrd&quot;);\n}\n</code></pre>\n<h2 id=\"表格\">表格</h2>\n<table>\n<thead>\n<tr>\n<th>一个普通标题</th>\n<th>一个普通标题</th>\n<th>一个普通标题</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>短文本</td>\n<td>中等文本</td>\n<td>稍微长一点的文本</td>\n</tr>\n<tr>\n<td>稍微长一点的文本</td>\n<td>短文本</td>\n<td>中等文本</td>\n</tr>\n</tbody>\n</table>\n<table>\n<thead>\n<tr>\n<th style=\"text-align:left\">左对齐标题</th>\n<th style=\"text-align:right\">右对齐标题</th>\n<th style=\"text-align:center\">居中对齐标题</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td style=\"text-align:left\">短文本</td>\n<td style=\"text-align:right\">中等文本</td>\n<td style=\"text-align:center\">稍微长一点的文本</td>\n</tr>\n<tr>\n<td style=\"text-align:left\">稍微长一点的文本</td>\n<td style=\"text-align:right\">短文本</td>\n<td style=\"text-align:center\">中等文本</td>\n</tr>\n</tbody>\n</table>\n<h2 id=\"任务列表\">任务列表</h2>\n<ul class=\"contains-task-list\">\n<li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" checked=\"\" disabled=\"\" type=\"checkbox\" id=\"task-item-3521750\"><label class=\"task-list-item-label\" for=\"task-item-3521750\"> 第一项任务</label></li>\n<li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"\" type=\"checkbox\" id=\"task-item-3158277\"><label class=\"task-list-item-label\" for=\"task-item-3158277\"> 第二项任务</label></li>\n<li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" disabled=\"\" type=\"checkbox\" id=\"task-item-3273910\"><label class=\"task-list-item-label\" for=\"task-item-3273910\"> 第三项任务</label></li>\n<li class=\"task-list-item\"><input class=\"task-list-item-checkbox\" checked=\"\" disabled=\"\" type=\"checkbox\" id=\"task-item-2287389\"><label class=\"task-list-item-label\" for=\"task-item-2287389\"> 第四项任务</label></li>\n</ul>\n<h2 id=\"加强功能\">加强功能</h2>\n<ul>\n<li>KaTeX 行内公式<span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mrow><msqrt><mrow><mn>3</mn><mi>x</mi><mo>−</mo><mn>1</mn></mrow></msqrt><mo>+</mo><mo>(</mo><mn>1</mn><mo>+</mo><mi>x</mi><msup><mo>)</mo><mn>2</mn></msup></mrow><annotation encoding=\"application/x-tex\">\\sqrt{3x-1}+(1+x)^2</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:1.04em;vertical-align:-0.17444499999999996em;\"></span><span class=\"mord sqrt\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8655550000000001em;\"><span class=\"svg-align\" style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\" style=\"padding-left:0.833em;\"><span class=\"mord\">3</span><span class=\"mord mathdefault\">x</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mord\">1</span></span></span><span style=\"top:-2.825555em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"hide-tail\" style=\"min-width:0.853em;height:1.08em;\"><svg width='400em' height='1.08em' viewBox='0 0 400000 1080' preserveAspectRatio='xMinYMin slice'><path d='M95,702c-2.7,0,-7.17,-2.7,-13.5,-8c-5.8,-5.3,-9.5,\n-10,-9.5,-14c0,-2,0.3,-3.3,1,-4c1.3,-2.7,23.83,-20.7,67.5,-54c44.2,-33.3,65.8,\n-50.3,66.5,-51c1.3,-1.3,3,-2,5,-2c4.7,0,8.7,3.3,12,10s173,378,173,378c0.7,0,\n35.3,-71,104,-213c68.7,-142,137.5,-285,206.5,-429c69,-144,104.5,-217.7,106.5,\n-221c5.3,-9.3,12,-14,20,-14H400000v40H845.2724s-225.272,467,-225.272,467\ns-235,486,-235,486c-2.7,4.7,-9,7,-19,7c-6,0,-10,-1,-12,-3s-194,-422,-194,-422\ns-65,47,-65,47z M834 80H400000v40H845z'/></svg></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.17444499999999996em;\"><span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1em;vertical-align:-0.25em;\"></span><span class=\"mopen\">(</span><span class=\"mord\">1</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span></span><span class=\"base\"><span class=\"strut\" style=\"height:1.064108em;vertical-align:-0.25em;\"></span><span class=\"mord mathdefault\">x</span><span class=\"mclose\"><span class=\"mclose\">)</span><span class=\"msupsub\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.8141079999999999em;\"><span style=\"top:-3.063em;margin-right:0.05em;\"><span class=\"pstrut\" style=\"height:2.7em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">2</span></span></span></span></span></span></span></span></span></span></span></li>\n<li>KaTeX 块级公式</li>\n</ul>\n<p class='katex-block'><span class=\"katex-display\"><span class=\"katex\"><span class=\"katex-mathml\"><math><semantics><mtable><mtr><mtd><mstyle scriptlevel=\"0\" displaystyle=\"false\"><mrow><mi mathvariant=\"normal\">∇</mi><mo>×</mo><mover accent=\"true\"><mi mathvariant=\"bold\">B</mi><mo>⃗</mo></mover><mo>−</mo><mtext> </mtext><mfrac><mn>1</mn><mi>c</mi></mfrac><mtext> </mtext><mfrac><mrow><mi mathvariant=\"normal\">∂</mi><mover accent=\"true\"><mi mathvariant=\"bold\">E</mi><mo>⃗</mo></mover></mrow><mrow><mi mathvariant=\"normal\">∂</mi><mi>t</mi></mrow></mfrac></mrow></mstyle></mtd><mtd><mstyle scriptlevel=\"0\" displaystyle=\"false\"><mrow><mo>=</mo><mfrac><mrow><mn>4</mn><mi>π</mi></mrow><mi>c</mi></mfrac><mover accent=\"true\"><mi mathvariant=\"bold\">j</mi><mo>⃗</mo></mover><mi mathvariant=\"normal\">∇</mi><mo>⋅</mo><mover accent=\"true\"><mi mathvariant=\"bold\">E</mi><mo>⃗</mo></mover></mrow></mstyle></mtd><mtd><mstyle scriptlevel=\"0\" displaystyle=\"false\"><mrow><mo>=</mo><mn>4</mn><mi>π</mi><mi>ρ</mi></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel=\"0\" displaystyle=\"false\"><mrow><mi mathvariant=\"normal\">∇</mi><mo>×</mo><mover accent=\"true\"><mi mathvariant=\"bold\">E</mi><mo>⃗</mo></mover><mtext> </mtext><mo>+</mo><mtext> </mtext><mfrac><mn>1</mn><mi>c</mi></mfrac><mtext> </mtext><mfrac><mrow><mi mathvariant=\"normal\">∂</mi><mover accent=\"true\"><mi mathvariant=\"bold\">B</mi><mo>⃗</mo></mover></mrow><mrow><mi mathvariant=\"normal\">∂</mi><mi>t</mi></mrow></mfrac></mrow></mstyle></mtd><mtd><mstyle scriptlevel=\"0\" displaystyle=\"false\"><mrow><mo>=</mo><mover accent=\"true\"><mn mathvariant=\"bold\">0</mn><mo>⃗</mo></mover></mrow></mstyle></mtd></mtr><mtr><mtd><mstyle scriptlevel=\"0\" displaystyle=\"false\"><mrow><mi mathvariant=\"normal\">∇</mi><mo>⋅</mo><mover accent=\"true\"><mi mathvariant=\"bold\">B</mi><mo>⃗</mo></mover></mrow></mstyle></mtd><mtd><mstyle scriptlevel=\"0\" displaystyle=\"false\"><mrow><mo>=</mo><mn>0</mn></mrow></mstyle></mtd></mtr></mtable><annotation encoding=\"application/x-tex\">\\begin{array}{c}\n\n\\nabla \\times \\vec{\\mathbf{B}} -\\, \\frac1c\\, \\frac{\\partial\\vec{\\mathbf{E}}}{\\partial t} &amp;\n= \\frac{4\\pi}{c}\\vec{\\mathbf{j}}    \\nabla \\cdot \\vec{\\mathbf{E}} &amp; = 4 \\pi \\rho \\\\\n\n\\nabla \\times \\vec{\\mathbf{E}}\\, +\\, \\frac1c\\, \\frac{\\partial\\vec{\\mathbf{B}}}{\\partial t} &amp; = \\vec{\\mathbf{0}} \\\\\n\n\\nabla \\cdot \\vec{\\mathbf{B}} &amp; = 0\n\n\\end{array}</annotation></semantics></math></span><span class=\"katex-html\" aria-hidden=\"true\"><span class=\"base\"><span class=\"strut\" style=\"height:4.1938640000000005em;vertical-align:-1.846932em;\"></span><span class=\"mord\"><span class=\"mtable\"><span class=\"arraycolsep\" style=\"width:0.5em;\"></span><span class=\"col-align-c\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:2.3469320000000002em;\"><span style=\"top:-4.346932000000001em;\"><span class=\"pstrut\" style=\"height:3.072377em;\"></span><span class=\"mord\"><span class=\"mord\">∇</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mbin\">×</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mord accent\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.9691099999999999em;\"><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\"><span class=\"mord mathbf\">B</span></span></span></span><span style=\"top:-3.25511em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"accent-body\" style=\"left:-0.15216em;\"><span class=\"overlay\" style=\"height:0.714em;width:0.471em;\"><svg width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mbin\">−</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.845108em;\"><span style=\"top:-2.6550000000000002em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathdefault mtight\">c</span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.394em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.072377em;\"><span style=\"top:-2.6550000000000002em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\" style=\"margin-right:0.05556em;\">∂</span><span class=\"mord mathdefault mtight\">t</span></span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.394em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\" style=\"margin-right:0.05556em;\">∂</span><span class=\"mord accent mtight\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.9691099999999999em;\"><span style=\"top:-2.714em;\"><span class=\"pstrut\" style=\"height:2.714em;\"></span><span class=\"mord mtight\"><span class=\"mord mtight\"><span class=\"mord mathbf mtight\">E</span></span></span></span><span style=\"top:-2.96911em;\"><span class=\"pstrut\" style=\"height:2.714em;\"></span><span class=\"accent-body\" style=\"left:-0.15216em;\"><span class=\"overlay mtight\" style=\"height:0.714em;width:0.471em;\"><svg width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span></span></span><span style=\"top:-2.9145549999999996em;\"><span class=\"pstrut\" style=\"height:3.072377em;\"></span><span class=\"mord\"><span class=\"mord\">∇</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mbin\">×</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mord accent\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.9691099999999999em;\"><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\"><span class=\"mord mathbf\">E</span></span></span></span><span style=\"top:-3.25511em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"accent-body\" style=\"left:-0.15216em;\"><span class=\"overlay\" style=\"height:0.714em;width:0.471em;\"><svg width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mbin\">+</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.845108em;\"><span style=\"top:-2.6550000000000002em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mathdefault mtight\">c</span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.394em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\">1</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span><span class=\"mspace\" style=\"margin-right:0.16666666666666666em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.072377em;\"><span style=\"top:-2.6550000000000002em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\" style=\"margin-right:0.05556em;\">∂</span><span class=\"mord mathdefault mtight\">t</span></span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.394em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\" style=\"margin-right:0.05556em;\">∂</span><span class=\"mord accent mtight\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.9691099999999999em;\"><span style=\"top:-2.714em;\"><span class=\"pstrut\" style=\"height:2.714em;\"></span><span class=\"mord mtight\"><span class=\"mord mtight\"><span class=\"mord mathbf mtight\">B</span></span></span></span><span style=\"top:-2.96911em;\"><span class=\"pstrut\" style=\"height:2.714em;\"></span><span class=\"accent-body\" style=\"left:-0.15216em;\"><span class=\"overlay mtight\" style=\"height:0.714em;width:0.471em;\"><svg width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span></span></span><span style=\"top:-1.585445em;\"><span class=\"pstrut\" style=\"height:3.072377em;\"></span><span class=\"mord\"><span class=\"mord\">∇</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mbin\">⋅</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mord accent\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.9691099999999999em;\"><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\"><span class=\"mord mathbf\">B</span></span></span></span><span style=\"top:-3.25511em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"accent-body\" style=\"left:-0.15216em;\"><span class=\"overlay\" style=\"height:0.714em;width:0.471em;\"><svg width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.846932em;\"><span></span></span></span></span></span><span class=\"arraycolsep\" style=\"width:0.5em;\"></span><span class=\"arraycolsep\" style=\"width:0.5em;\"></span><span class=\"col-align-c\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:2.3469320000000002em;\"><span style=\"top:-4.346932000000001em;\"><span class=\"pstrut\" style=\"height:3.072377em;\"></span><span class=\"mord\"><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2777777777777778em;\"></span><span class=\"mord\"><span class=\"mopen nulldelimiter\"></span><span class=\"mfrac\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.845108em;\"><span style=\"top:-2.6550000000000002em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mathdefault mtight\">c</span></span></span></span><span style=\"top:-3.23em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"frac-line\" style=\"border-bottom-width:0.04em;\"></span></span><span style=\"top:-3.394em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"sizing reset-size6 size3 mtight\"><span class=\"mord mtight\"><span class=\"mord mtight\">4</span><span class=\"mord mathdefault mtight\" style=\"margin-right:0.03588em;\">π</span></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.345em;\"><span></span></span></span></span></span><span class=\"mclose nulldelimiter\"></span></span><span class=\"mord accent\"><span class=\"vlist-t vlist-t2\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.9774399999999999em;\"><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\"><span class=\"mord mathbf\">j</span></span></span></span><span style=\"top:-3.26344em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"accent-body\" style=\"left:-0.2355em;\"><span class=\"overlay\" style=\"height:0.714em;width:0.471em;\"><svg width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.19444em;\"><span></span></span></span></span></span><span class=\"mord\">∇</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mbin\">⋅</span><span class=\"mspace\" style=\"margin-right:0.2222222222222222em;\"></span><span class=\"mord accent\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.9691099999999999em;\"><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\"><span class=\"mord mathbf\">E</span></span></span></span><span style=\"top:-3.25511em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"accent-body\" style=\"left:-0.15216em;\"><span class=\"overlay\" style=\"height:0.714em;width:0.471em;\"><svg width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span></span></span><span style=\"top:-2.9145549999999996em;\"><span class=\"pstrut\" style=\"height:3.072377em;\"></span><span class=\"mord\"><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2777777777777778em;\"></span><span class=\"mord accent\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:0.92744em;\"><span style=\"top:-3em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"mord\"><span class=\"mord\"><span class=\"mord mathbf\">0</span></span></span></span><span style=\"top:-3.21344em;\"><span class=\"pstrut\" style=\"height:3em;\"></span><span class=\"accent-body\" style=\"left:-0.2355em;\"><span class=\"overlay\" style=\"height:0.714em;width:0.471em;\"><svg width='0.471em' height='0.714em' style='width:0.471em' viewBox='0 0 471 714' preserveAspectRatio='xMinYMin'><path d='M377 20c0-5.333 1.833-10 5.5-14S391 0 397 0c4.667 0 8.667 1.667 12 5\n3.333 2.667 6.667 9 10 19 6.667 24.667 20.333 43.667 41 57 7.333 4.667 11\n10.667 11 18 0 6-1 10-3 12s-6.667 5-14 9c-28.667 14.667-53.667 35.667-75 63\n-1.333 1.333-3.167 3.5-5.5 6.5s-4 4.833-5 5.5c-1 .667-2.5 1.333-4.5 2s-4.333 1\n-7 1c-4.667 0-9.167-1.833-13.5-5.5S337 184 337 178c0-12.667 15.667-32.333 47-59\nH213l-171-1c-8.667-6-13-12.333-13-19 0-4.667 4.333-11.333 13-20h359\nc-16-25.333-24-45-24-59z'/></svg></span></span></span></span></span></span></span></span></span><span style=\"top:-1.585445em;\"><span class=\"pstrut\" style=\"height:3.072377em;\"></span><span class=\"mord\"><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2777777777777778em;\"></span><span class=\"mord\">0</span></span></span></span><span class=\"vlist-s\">​</span></span><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:1.846932em;\"><span></span></span></span></span></span><span class=\"arraycolsep\" style=\"width:0.5em;\"></span><span class=\"arraycolsep\" style=\"width:0.5em;\"></span><span class=\"col-align-c\"><span class=\"vlist-t\"><span class=\"vlist-r\"><span class=\"vlist\" style=\"height:2.3469320000000002em;\"><span style=\"top:-4.346932000000001em;\"><span class=\"pstrut\" style=\"height:3.072377em;\"></span><span class=\"mord\"><span class=\"mrel\">=</span><span class=\"mspace\" style=\"margin-right:0.2777777777777778em;\"></span><span class=\"mord\">4</span><span class=\"mord mathdefault\" style=\"margin-right:0.03588em;\">π</span><span class=\"mord mathdefault\">ρ</span></span></span></span></span></span></span><span class=\"arraycolsep\" style=\"width:0.5em;\"></span></span></span></span></span></span></span></p>\n<ul>\n<li>高亮文本示例<mark>高亮文本</mark></li>\n<li>29<sup>th</sup></li>\n<li>下面是缩略语示例</li>\n</ul>\n<p>The <abbr title=\"Hyper Text Markup Language\">HTML</abbr> specification</p>\n<ul>\n<li>下面是 footnote 示例</li>\n</ul>\n<p>Here is a footnote reference,<sup class=\"footnote-ref\"><a href=\"#fn1\" id=\"fnref1\">[1]</a></sup> and another.<sup class=\"footnote-ref\"><a href=\"#fn2\" id=\"fnref2\">[2]</a></sup></p>\n<p>文章内目录示例：</p>\n<p><ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#%E6%A0%87%E9%A2%98\">标题</a>\n<ul>\n<li><a href=\"#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98%E6%98%BE%E7%A4%BA\">三级标题显示</a></li>\n</ul>\n</li>\n<li><a href=\"#%E6%99%AE%E9%80%9A%E6%AE%B5%E8%90%BD\">普通段落</a></li>\n<li><a href=\"#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8\">有序列表</a></li>\n<li><a href=\"#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8\">无序列表</a></li>\n<li><a href=\"#%E5%85%B6%E4%BB%96%E5%86%85%E5%AE%B9\">其他内容</a></li>\n<li><a href=\"#%E5%9D%97%E4%BB%A3%E7%A0%81\">块代码</a></li>\n<li><a href=\"#%E8%A1%A8%E6%A0%BC\">表格</a></li>\n<li><a href=\"#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8\">任务列表</a></li>\n<li><a href=\"#%E5%8A%A0%E5%BC%BA%E5%8A%9F%E8%83%BD\">加强功能</a></li>\n</ul>\n</li>\n</ul>\n</p>\n<hr class=\"footnotes-sep\">\n<section class=\"footnotes\">\n<ol class=\"footnotes-list\">\n<li id=\"fn1\" class=\"footnote-item\"><p>Here is the footnote. <a href=\"#fnref1\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n<li id=\"fn2\" class=\"footnote-item\"><p>Here's one with multiple blocks. <a href=\"#fnref2\" class=\"footnote-backref\">↩︎</a></p>\n</li>\n</ol>\n</section>\n",
+        "fileName": "3",
+        "abstract": "<p>Markdown是一种轻量级标记语言，创始人为约翰·格鲁伯（英语：John Gruber）。它允许人们“使用易读易写的纯文本格式编写文档，然后转换成有效的XHTML（或者HTML）文档”。</p>\n",
+        "title": "Markdown 测试文章",
+        "tags": [
+          {
+            "index": -1,
+            "name": "生活随想",
+            "slug": "WibWptDz1",
+            "used": true,
+            "link": "/tag/WibWptDz1"
+          }
+        ],
+        "date": "2019-04-18 18:32:46",
+        "dateFormat": "2019-04-18",
+        "feature": "https://images.unsplash.com/photo-1505739998589-00fc191ce01d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+        "link": "/post/3",
+        "hideInList": false,
+        "toc": "<ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#markdown%E6%98%AF%E4%BB%80%E4%B9%88\">Markdown是什么</a></li>\n<li><a href=\"#%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E4%BD%BF%E7%94%A8-markdown\">为什么要使用 Markdown</a></li>\n<li><a href=\"#%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8-markdown\">如何使用 Markdown</a>\n<ul>\n<li><a href=\"#1-%E6%A0%87%E9%A2%98\">1. 标题</a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a href=\"#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98\">一级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98\">二级标题</a></li>\n</ul>\n</li>\n<li><a href=\"#%E4%B8%80%E7%BA%A7%E6%A0%87%E9%A2%98-2\">一级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%8C%E7%BA%A7%E6%A0%87%E9%A2%98-2\">二级标题</a>\n<ul>\n<li><a href=\"#%E4%B8%89%E7%BA%A7%E6%A0%87%E9%A2%98\">三级标题</a>\n<ul>\n<li><a href=\"#%E5%9B%9B%E7%BA%A7%E6%A0%87%E9%A2%98\">四级标题</a>\n<ul>\n<li><a href=\"#%E4%BA%94%E7%BA%A7%E6%A0%87%E9%A2%98\">五级标题</a>\n<ul>\n<li><a href=\"#%E5%85%AD%E7%BA%A7%E6%A0%87%E9%A2%98\">六级标题</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n</li>\n<li><a href=\"#2-%E6%AE%B5%E8%90%BD\">2. 段落</a></li>\n<li><a href=\"#3-%E5%88%97%E8%A1%A8\">3. 列表</a></li>\n<li><a href=\"#4-%E5%BC%BA%E8%B0%83\">4. 强调</a></li>\n<li><a href=\"#5-%E5%8C%BA%E5%9D%97%E5%BC%95%E7%94%A8\">5. 区块引用</a></li>\n<li><a href=\"#6-%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97\">6. 代码区块</a></li>\n<li><a href=\"#7-%E8%A1%8C%E5%86%85%E4%BB%A3%E7%A0%81\">7. 行内代码</a></li>\n<li><a href=\"#8-%E5%88%86%E5%89%B2%E7%BA%BF\">8. 分割线</a></li>\n<li><a href=\"#9-%E9%93%BE%E6%8E%A5\">9. 链接</a></li>\n<li><a href=\"#10-%E8%87%AA%E5%8A%A8%E9%93%BE%E6%8E%A5\">10. 自动链接</a></li>\n<li><a href=\"#11-%E5%9B%BE%E7%89%87\">11. 图片</a></li>\n<li><a href=\"#12-%E5%8F%8D%E6%96%9C%E6%9D%A0\">12. 反斜杠</a></li>\n<li><a href=\"#13-%E8%A1%A8%E6%A0%BC%E6%89%A9%E5%B1%95\">13. 表格(扩展)</a></li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>\n",
+        "stats": {
+          "text": "3 min read",
+          "minutes": 2,
+          "time": 1200000,
+          "words": 1000
+        }
+      },
+      {
+        "content": "<p>Vue.js 是一个渐进式 JavaScript 框架。易用、灵活、高效～</p>\n<!-- more -->\n<h2 id=\"vuejs-是什么\">Vue.js 是什么</h2>\n<p>Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进式框架。与其它大型框架不同的是，Vue 被设计为可以自底向上逐层应用。Vue 的核心库只关注视图层，不仅易于上手，还便于与第三方库或既有项目整合。另一方面，当与<a href=\"https://cn.vuejs.org/v2/guide/single-file-components.html\">现代化的工具链</a>以及各种<a href=\"https://github.com/vuejs/awesome-vue#libraries--plugins\">支持类库</a>结合使用时，Vue 也完全能够为复杂的单页应用提供驱动。</p>\n<p>如果你想在深入学习 Vue 之前对它有更多了解，我们制作了一个视频，带您了解其核心概念和一个示例工程。</p>\n<p>如果你已经是有经验的前端开发者，想知道 Vue 与其它库/框架有哪些区别，请查看<a href=\"https://cn.vuejs.org/v2/guide/comparison.html\">对比其它框架</a>。</p>\n<h2 id=\"起步\">起步</h2>\n<blockquote>\n<p>官方指南假设你已了解关于 HTML、CSS 和 JavaScript 的中级知识。如果你刚开始学习前端开发，将框架作为你的第一步可能不是最好的主意——掌握好基础知识再来吧！之前有其它框架的使用经验会有帮助，但这不是必需的。</p>\n</blockquote>\n<p>尝试 Vue.js 最简单的方法是使用 <a href=\"https://jsfiddle.net/chrisvfritz/50wL7mdz/\">JSFiddle 上的 Hello World 例子</a>。你可以在浏览器新标签页中打开它，跟着例子学习一些基础用法。或者你也可以创建一个 .html 文件，然后通过如下方式引入 Vue：</p>\n<pre><code class=\"language-html\">&lt;!-- 开发环境版本，包含了有帮助的命令行警告 --&gt;\n&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue/dist/vue.js&quot;&gt;&lt;/script&gt;\n</code></pre>\n<p>或者：</p>\n<pre><code class=\"language-html\">&lt;!-- 生产环境版本，优化了尺寸和速度 --&gt;\n&lt;script src=&quot;https://cdn.jsdelivr.net/npm/vue&quot;&gt;&lt;/script&gt;\n</code></pre>\n<p><a href=\"https://cn.vuejs.org/v2/guide/installation.html\">安装教程</a>给出了更多安装 Vue 的方式。请注意我们不推荐新手直接使用 <code>vue-cli</code>，尤其是在你还不熟悉基于 Node.js 的构建工具时。</p>\n<p>如果你喜欢交互式的东西，你也可以查阅<a href=\"https://scrimba.com/playlist/pXKqta\">这个 Scrimba 上的系列教程</a>，它揉合了录屏和代码试验田，并允许你随时暂停和播放。</p>\n",
+        "fileName": "2",
+        "abstract": "<p>Vue.js 是一个渐进式 JavaScript 框架。易用、灵活、高效～</p>\n",
+        "title": "Vue.js 文档摘录",
+        "tags": [
+          {
+            "index": -1,
+            "name": "编程生涯",
+            "slug": "rwkHQqSzU",
+            "used": true,
+            "link": "/tag/rwkHQqSzU"
+          }
+        ],
+        "date": "2019-04-18 18:11:37",
+        "dateFormat": "2019-04-18",
+        "feature": "https://images.unsplash.com/photo-1555456274-58a32f9c3fad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+        "link": "/post/2",
+        "hideInList": false,
+        "toc": "<ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#vuejs-%E6%98%AF%E4%BB%80%E4%B9%88\">Vue.js 是什么</a></li>\n<li><a href=\"#%E8%B5%B7%E6%AD%A5\">起步</a></li>\n</ul>\n</li>\n</ul>\n",
+        "stats": {
+          "text": "3 min read",
+          "minutes": 2,
+          "time": 1200000,
+          "words": 1000
+        }
+      },
+      {
+        "content": "<p>少年有他的沧海，有他的重重山影，有他的万里波涛。</p>\n<!-- more -->\n<p>他还要路过四月的桃林，一顾人间惊鸿;他还要路过十二月的小巷，领略四季变幻。他时常仰望触不可及的星空，做一场穿越时空的梦，回首人间烟火，祝这个世界越来越热闹，祝我仍然是我。</p>\n<p>《世说新语》里面有一段让人耳目一新的对话：桓公少与殷侯齐名，常有竞心。桓问殷：“卿何如我?”殷云：“我与我周旋久，宁作我!” 每个人的生命历程都有其独特的色彩，年少时不忧春风染白鬓，长大后却顾离乡万里愁，待到垂垂暮年，澹然的回顾这一生，或许诸多悔憾，或许点滴清欢，若有来世修行，还赴前生道场。</p>\n<p>最近听朴树的《送别》，每每想到那些故事里的离别场景，心里总会升起淡淡的感伤。古人有折柳相寄，临歧饮饯，抑或驿寄梅花，鱼传尺素。今人的送别又哪里来的那么多长亭古道笛江柳，不过是一个如往常一样的清晨或者黄昏，于某个火车站或者路口，目送故人离别的声影，自己默默的转身，归葬人海。而后听着耳机里的一首小曲，消减那四面八荒袭来的孤单。</p>\n<p>记得以前看过一段资讯：“凌晨三点的北京”。走在空荡荡的街头，总会有一些路宿者，白天他们为生活而奔波，夜晚悄然的熟睡于街头。其实我们看过的不止有凌晨三点的北京，还有凌晨四点的重庆，还有凌晨五点的金陵，还有很多很多。</p>\n<p>在繁华街道的尽头总会有衣衫褴褛的流浪者在垃圾桶里翻捡着塑料瓶，为了生存他们徘徊在城市里最寂静的角落。在晚间八点左右某个中学的门口总会排起长长的车队，每一个人都在人群里努力的踮起脚尖，寻找着自己孩子的身影，为了孩子，再忙他们也会抽出时间来接送他们。在凌晨十二点的路边烧烤摊总会有各种各样的人在撸串，有衣着光鲜的白领，也有忙碌奔波的出租车司机。这一刻我们都是被生活消磨的平凡人而已，放下一身的疲惫，化作繁华市井里的一点萤火。</p>\n<p>七堇年在《尘曲》中写过：“心之所向，素履以往，生如逆旅，一苇以航。”寻常生活中所遇种种不尽人意之事总在试图将我们埋葬，殊不知我们其实是种子，总有一天会向着朝阳，开花结果。年少时有一颗红楼梦的心，却也想着一场西游记的修行。在渐行渐远的路上，看过几场流连忘返的景致，走过几座雨雪霏霏的小桥，识得数位推心置腹的好友，经得几段跌宕起伏的故事，这短短的一生，亦无所遗憾了。</p>\n<p>四月烟雨倾城，良夜染墨飞宣，执笔一剪烛火，梳理浅浅灵思。窗外蛙声阵阵，入了谁的梦;林间鸣蛩织语，敲了谁的枕?世间繁华如故，蓦然回首处，不变的灯火阑珊，不变的星辰流转，只愿你我斟一杯红尘的酒也好，酌一盏世俗的茶也罢，饮尽而归，如梦初醒，不忘初心，绥绥而行。</p>\n",
+        "fileName": "1",
+        "abstract": "<p>少年有他的沧海，有他的重重山影，有他的万里波涛。</p>\n",
+        "title": "惟世之繁华如故，斟酌岁月如初",
+        "tags": [
+          {
+            "index": -1,
+            "name": "文学集锦",
+            "slug": "V6NMYW_ta",
+            "used": true,
+            "link": "/tag/V6NMYW_ta"
+          }
+        ],
+        "date": "2019-04-18 17:47:58",
+        "dateFormat": "2019-04-18",
+        "feature": "https://images.unsplash.com/photo-1555400113-4961f30f68bb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80",
+        "link": "/post/1",
+        "hideInList": false,
+        "toc": "",
+        "stats": {
+          "text": "3 min read",
+          "minutes": 2,
+          "time": 1200000,
+          "words": 1000
+        }
+      },
+      {
+        "content": "<p>这是关于的页面，可以在这里向世界介绍你！</p>\n<p>Gridea —— 一个静态博客写作客户端。开源、易用、强大～<br>\n记录生活、心情、知识、笔记、创意...<br>\n尽情发挥你的才华吧！</p>\n<p>😘 𝖤𝗇𝗃𝗈𝗒~</p>\n",
+        "fileName": "about",
+        "abstract": "",
+        "title": "关于",
+        "tags": [],
+        "date": "2019-01-25 19:09:48",
+        "dateFormat": "2019-01-25",
+        "feature": "",
+        "link": "/post/about",
+        "hideInList": true,
+        "toc": "",
+        "stats": {
+          "text": "3 min read",
+          "minutes": 2,
+          "time": 1200000,
+          "words": 1000
+        }
+      },
+      {
+        "content": "<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>\n✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>\n<!-- more -->\n<p><a href=\"https://github.com/getgridea/gridea\">Github</a><br>\n<a href=\"http://hvenotes.fehey.com/\">Gridea 主页</a><br>\n<a href=\"http://fehey.com/\">示例网站</a></p>\n<h2 id=\"特性\">特性👇</h2>\n<p>📝  你可以使用最酷的 <strong>Markdown</strong> 语法，进行快速创作</p>\n<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>\n<p>🏷️  你可以对文章进行标签分组</p>\n<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>\n<p>💻  你可以在 <strong>𝖶𝗂𝗇𝖽𝗈𝗐𝗌</strong> 或 <strong>𝖬𝖺𝖼𝖮𝖲</strong> 设备上使用此客户端</p>\n<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>\n<p>💬  你可以进行简单的配置，接入 <a href=\"https://github.com/gitalk/gitalk\">Gitalk</a> 或 <a href=\"https://github.com/SukkaW/DisqusJS\">DisqusJS</a> 评论系统</p>\n<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>\n<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>\n<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>\n<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前🏃</p>\n<p>未来，它一定会成为你离不开的伙伴</p>\n<p>尽情发挥你的才华吧！</p>\n<p>😘 Enjoy~</p>\n",
+        "fileName": "hello-gridea",
+        "abstract": "<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>\n✍️  <strong>Gridea</strong> 一个静态博客写作客户端。你可以用它来记录你的生活、心情、知识、笔记、创意... ...</p>\n",
+        "title": "Hello Gridea",
+        "tags": [
+          {
+            "name": "Gridea",
+            "slug": "gridea",
+            "used": true,
+            "link": "/tag/gridea"
+          }
+        ],
+        "date": "2018-12-12 00:00:00",
+        "dateFormat": "2018-12-12",
+        "feature": "https://gridea.dev/themes.png",
+        "link": "/post/hello-gridea",
+        "hideInList": false,
+        "toc": "<ul class=\"markdownIt-TOC\">\n<li>\n<ul>\n<li><a href=\"#%E7%89%B9%E6%80%A7\">特性👇</a></li>\n</ul>\n</li>\n</ul>\n",
+        "stats": {
+          "text": "3 min read",
+          "minutes": 2,
+          "time": 1200000,
+          "words": 1000
+        }
+      }
+    ],
+    "tags": [
+      {
+        "index": -1,
+        "name": "生活随想",
+        "slug": "WibWptDz1",
+        "used": true,
+        "link": "/tag/WibWptDz1",
+        "count": 3
+      },
+      {
+        "index": -1,
+        "name": "编程生涯",
+        "slug": "rwkHQqSzU",
+        "used": true,
+        "link": "/tag/rwkHQqSzU",
+        "count": 12
+      },
+      {
+        "index": -1,
+        "name": "文学集锦",
+        "slug": "V6NMYW_ta",
+        "used": true,
+        "link": "/tag/V6NMYW_ta",
+        "count": 5
+      },
+      {
+        "name": "Gridea",
+        "slug": "gridea",
+        "used": true,
+        "link": "/tag/gridea",
+        "count": 1
+      }
+    ],
+    "customConfig": {},
+    "utils": {
+      "now": 1555639472044
+    },
+    "isHomepage": false
+  }
+}
